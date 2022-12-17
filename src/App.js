@@ -2,8 +2,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 import Blog from "./components/Blog";
 import Courses from "./components/Courses";
-import LoginBootstrap from "./components/LoginBootstrap";
-import RegisterReactBootstrap from "./components/RegisterReactBootstrap";
+import LoginBootstrap from "./components/Register";
+import RegisterReactBootstrap from "./components/Login";
 import Main from "./layout/Main";
 
 const router = createBrowserRouter([
