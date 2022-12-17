@@ -5,11 +5,11 @@ import {
 } from "firebase/auth";
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import app from "../firebase/firebase.config";
+import app from "../Firebase/firebase.config";
 
 const auth = getAuth(app);
 
-const Login = () => {
+const LoginBootstrap = () => {
   const [success, setSuccess] = useState(false);
   const [userEmail, setUserEmail] = useState("");
 
@@ -112,4 +112,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default LoginBootstrap;
