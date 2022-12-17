@@ -8,7 +8,7 @@ function NavBar() {
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">OLP</Navbar.Brand>
+          <Navbar.Brand href="#home">OLA</Navbar.Brand>
           <Nav className="me-auto">
             <NavLink
               style={{
