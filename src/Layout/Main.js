@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
-import Footer from "../components/Footer.js";
+import Footer from "../components/Footer";
 import NavBar from "../components/NavBar.js";
 
 const Main = () => {
