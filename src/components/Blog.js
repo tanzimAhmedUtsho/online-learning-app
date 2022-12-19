@@ -1,45 +1,67 @@
 import React from "react";
 
 const Blog = () => {
-    return (
-        <div className="p-10">
-            <h1 className="text-2xl py-3">What is cors ? </h1>
-            <p>
-                In ReactJS, Cross-Origin Resource Sharing (CORS) refers to the
-                method that allows you to make requests to the server deployed
-                at a different domain. As a reference, if the frontend and
-                backend are at two different domains, we need CORS there.
-            </p>
-            <h1 className="text-2xl py-3">
-                Why are you using firebase? What other options do you have to
-                implement authentication ?{" "}
-            </h1>
-            <p>
-                Firebase Authentication provides backend services, easy-to-use
-                SDKs, and ready-made UI libraries to authenticate users to your
-                app. It supports authentication using passwords, phone numbers,
-                popular federated identity providers like Google, Facebook and
-                Twitter, and more.
-            </p>
+  return (
+    <div className="p-10">
+      <h1 className="text-2xl py-3">What is cors ? </h1>
+      <p>
+        Cross-Origin Resource Sharing (CORS) is an HTTP-based security mechanism
+        controlled and enforced by the client (web browser). It allows a service
+        (API) to indicate any origin other than its own from which the client
+        can request resources. It has been designed in response to the
+        same-origin policy (SOP) that restricts how a website (HTML document or
+        JS script) loaded by one origin can interact with a resource from
+        another origin. CORS is used to explicitly allow some cross-origin
+        requests while rejecting others.
+      </p>
+      <h1 className="text-2xl py-3">
+        Why are you using firebase? What other options do you have to implement
+        authentication?
+      </h1>
+      <p>
+        For most developers, building an authentication system for your app can
+        feel a lot like paying taxes. They are both relatively hard to
+        understand tasks that you have no choice but doing, and could have big
+        consequences if you get them wrong. No one ever started a company to pay
+        taxes and no one ever built an app just so they could create a great
+        login system. They just seem to be inescapable costs. But now, you can
+        at least free yourself from the auth tax. With Firebase Authentication,
+        you can outsource your entire authentication system to Firebase so that
+        you can concentrate on building great features for your app. Firebase
+        Authentication makes it easier to get your users signed-in without
+        having to understand the complexities behind implementing your own
+        authentication system. It offers a straightforward getting started
+        experience, optional UX components designed to minimize user friction,
+        and is built on open standards and backed by Google infrastructure.
+      </p>
 
-            <h1 className="text-2xl py-3">How does the private route work?</h1>
+      <h1 className="text-2xl py-3">How does the private route work?</h1>
 
-            <p>
-                The react private route component renders child components (
-                children ) if the user is logged in. If not logged in the user
-                is redirected to the /login page with the return url passed in
-                the location state property.
-            </p>
-            <h1 className="text-2xl py-3">What is Node? How does Node work?</h1>
-            <p>
-                Node. js is an open-source, cross-platform JavaScript runtime
-                environment and library for running web applications outside the
-                client's browser. Ryan Dahl developed it in 2009, and its latest
-                iteration, version 15.14, was released in April 2021. Developers
-                use Node.
-            </p>
-        </div>
-    );
+      <p>
+        Private Routes vary based on the Apps, For example, Dashboard, User
+        Profile, App Settings, Home etc. In simple words, These routes can be
+        accessed only after login. The constraints for Public and Private routes
+        are that Public routes should not be accessed after login and Private
+        routes should not be accessible before login. In this article, we can
+        see. How to create public and private routes using react-router for your
+        react apps. Let's start
+      </p>
+      <h1 className="text-2xl py-3">What is Node? How does Node work?</h1>
+      <p>
+        The Node.js run-time environment includes everything you need to execute
+        a program written in JavaScript.Node.js came into existence when the
+        original developers of JavaScript extended it from something you could
+        only run in the browser to something you could run on your machine as a
+        standalone application. Now you can do much more with JavaScript than
+        just making websites interactive. JavaScript now has the capability to
+        do things that other scripting languages like Python can do. Both your
+        browser JavaScript and Node.js run on the V8 JavaScript runtime engine.
+        This engine takes your JavaScript code and converts it into a faster
+        machine code. Machine code is low-level code which the computer can run
+        without needing to first interpret it.
+      </p>
+    </div>
+  );
 };
 
 export default Blog;
