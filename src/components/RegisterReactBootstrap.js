@@ -78,7 +78,7 @@ const RegisterReactBootstrap = () => {
 
   return (
     <div className="w-50 mx-auto">
-      <h3 className="text-primary">Please Register!!!</h3>
+      <h3 className="text-success">Please Register!!!</h3>
       <Form onSubmit={handleRegister}>
         <Form.Group className="mb-3" controlId="formBasicName">
           <Form.Label>Your Name</Form.Label>
